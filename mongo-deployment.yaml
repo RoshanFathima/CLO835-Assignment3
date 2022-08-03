@@ -23,7 +23,7 @@ spec:
             claimName: mongodb-pvc
       containers:
       - name: mongo
-        image: 097461423841.dkr.ecr.us-east-1.amazonaws.com/roshanfathima-assignment3:v1.1
+        image: mongo:4.2
         args:
           - --bind_ip
           - 0.0.0.0
