@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mong)
+  name: mongo
   labels:
     app.kubernetes.io/name: mongo
     app.kubernetes.io/component: backend
